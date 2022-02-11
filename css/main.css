@@ -1,0 +1,415 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*HEADER Y NAV*/
+header {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #7cebff69;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  z-index: 100;
+  position: relative;
+}
+
+header nav:hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+header nav .navbar-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .navbar-nav .container-fluid :hover {
+  opacity: 1;
+  visibility: visible;
+}
+
+header nav .navbar-nav .titulo__logo {
+  font-family: "Titillium Web", sans-serif;
+}
+
+header nav .navbar-nav a {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header nav .navbar-nav ul li a :hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* MAIN */
+main {
+  color: black;
+  background-color: #d6eaf8;
+  width: 100%;
+}
+
+main .titulo__principal {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  margin-left: 5px;
+}
+
+main .titulo__secundario {
+  font-family: "Roboto, saint seriff";
+  font-weight: 450;
+  color: black;
+  margin-left: 5px;
+  text-decoration: underline;
+  font-size: xx-large;
+}
+
+main p {
+  letter-spacing: 0.1rem;
+  word-spacing: 0.6rem;
+  text-align: center;
+  font-family: "Roboto, saint seriff";
+  color: black;
+  margin: 20px 20px;
+}
+
+.propuesta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.propuesta__bsas {
+  background-color: #FDBED9;
+}
+
+.propuesta__humahuaca {
+  background-color: #f3aacb;
+}
+
+.propuesta__iguazu {
+  background-color: #77dd77;
+}
+
+.propuesta__bariloche {
+  background-color: #fdfd96;
+}
+
+.propuesta__bsas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin: 8px;
+}
+
+.propuesta__humahuaca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin: 8px;
+}
+
+.propuesta__iguazu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin: 8px;
+}
+
+.propuesta__bariloche {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  margin: 8px;
+}
+
+/* HERO */
+.hero {
+  height: 75vh;
+  background-image: url(../multimedia/hero.png);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero__contenedor .btn {
+  background-color: cornflowerblue;
+  color: black;
+  padding: 1rem 1.2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
+
+.hero__titulo {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 340;
+  font-size: 3rem;
+  color: #0d1f22ff;
+}
+
+.complementoMain {
+  padding: 1rem 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 25px;
+}
+
+.complementoMain__contenedor {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding: 40px;
+}
+
+.complementoMain__contenedor__titulo {
+  margin-bottom: 1rem;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 340;
+  font-size: 2rem;
+  color: #0d1f22ff;
+}
+
+.complementoMain__contenedor__video {
+  width: 560px;
+  height: 315px;
+}
+
+/* /*SECTIONS */
+.excursion__contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.excursion__contenedor__titulo {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 340;
+  font-size: 3rem;
+  color: #0d1f22ff;
+}
+
+.excursion__contenedor__text {
+  color: black;
+  margin-bottom: 1rem;
+  font-family: "Roboto, saint seriff";
+}
+
+.excursion__contenedor__1 {
+  background-color: #f9d99a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: auto;
+}
+
+.excursion__contenedor img {
+  width: 320px;
+  height: 480px;
+}
+
+.excursion__contenedor__carrousel {
+  background-color: #f9d99a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fieldset__caja {
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.fieldset__caja__datos {
+  display: flow-root;
+  margin: 10px;
+  display: initial;
+  width: 100%;
+  height: 100%;
+}
+
+.fieldset__caja__comentarios {
+  display: flow-root;
+  margin: 10px;
+  display: initial;
+  width: 100%;
+  height: 100%;
+}
+
+/*FOOTER*/
+footer {
+  font-size: 1rem;
+  padding: 15px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#f9d99a), color-stop(55%, #7cebffad));
+  background: linear-gradient(0deg, #f9d99a 0%, #7cebffad 55%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  padding: 5px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+footer ul li a:hover {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+footer div img {
+  width: 28px;
+}
+
+@media (max-width: 1024px) {
+  .complementoMain__contenedor .complementoMain__contenedor__video {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .section1 {
+    display: inline;
+  }
+  h2 {
+    margin-top: 100px;
+  }
+  .fieldset__caja__datos {
+    display: contents;
+  }
+  .fieldset__caja__comentarios {
+    display: -ms-grid;
+    display: grid;
+  }
+  legend {
+    font-size: large;
+  }
+  footer div a Img {
+    height: 20px;
+    width: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .fieldset__caja {
+    display: -ms-grid;
+    display: grid;
+    justify-items: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .fieldset__caja__datos {
+    display: -ms-grid;
+    display: grid;
+  }
+  .fieldset__caja__comentarios {
+    display: flow-root;
+  }
+  iframe {
+    width: auto;
+  }
+  .excursion__carrousel {
+    display: contents;
+  }
+}
+/*# sourceMappingURL=main.css.map */
