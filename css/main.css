@@ -411,5 +411,10 @@ footer div img {
   .excursion__carrousel {
     display: contents;
   }
+  .propuesta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */
