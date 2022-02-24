@@ -286,6 +286,11 @@ footer {
   .excursion__carrousel {
     display: contents;
   }
+  .excursion_contenedor__carrousel{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+  }
   .propuesta{
     display: flex;
     flex-direction: column;
