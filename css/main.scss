@@ -281,19 +281,18 @@ footer {
     }
   }
   iframe {
-    width: auto;
+    width: 460px;
   }
   .excursion__carrousel {
     display: contents;
   }
   .excursion_contenedor__carrousel{
-    display: flex ;
-    flex-direction: column;
+    display: flow-root;
     align-items: center;
   }
   .propuesta{
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
-  }
 }
