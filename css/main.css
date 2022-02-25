@@ -363,7 +363,7 @@ footer div img {
   iframe {
     width: auto;
   }
-  .excursion_contenedor__carrousel {
+  .excursion__contenedor__carrousel {
     display: flow-root;
     align-items: center;
     flex-direction: column;
@@ -382,7 +382,7 @@ footer div img {
     width: auto;
     padding: 10px;
   }
-  .excursion_contenedor__carrousel {
+  .excursion__contenedor__carrousel {
     display: flex;
     align-items: center;
     flex-direction: column;

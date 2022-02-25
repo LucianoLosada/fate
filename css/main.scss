@@ -226,6 +226,9 @@ footer {
     letter-spacing: normal;
     font-size: small;
   }
+  p {
+    font-size: 19px;
+  }
   .section1 {
     display: inline;
   }
@@ -244,7 +247,7 @@ footer {
     width: auto;
     padding: 10px;
   }
-  .excursion_contenedor__carrousel {
+  .excursion__contenedor__carrousel {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -261,7 +264,7 @@ footer {
     width: auto;
     padding: 10px;
   }
-  .excursion_contenedor__carrousel {
+  .excursion__contenedor__carrousel {
     display: flex;
     align-items: center;
     flex-direction: column;
