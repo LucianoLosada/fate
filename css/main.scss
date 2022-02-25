@@ -221,12 +221,7 @@ footer {
     width: 28px;
   }
 }
-@media (max-width: 1024px) {
-  .complementoMain__contenedor .complementoMain__contenedor__video {
-    width: 100%;
-  }
-}
-@media (max-width: 481px) {
+@media (max-width: 500px) {
   main {
     letter-spacing: normal;
     font-size: medium;
@@ -259,5 +254,10 @@ footer {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+  }
+}
+@media (max-width: 1024px) {
+  .complementoMain__contenedor .complementoMain__contenedor__video {
+    width: 100%;
   }
 }
