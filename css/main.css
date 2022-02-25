@@ -361,11 +361,12 @@ footer div img {
     display: flex;
   }
   iframe {
-    width: 460px;
+    width: auto;
   }
-  .excursion__contenedor__carrousel {
+  .excursion_contenedor__carrousel{
     display: flow-root;
     align-items: center;
+    flex-direction: column;
   }
   .propuesta{
     display: flex;
@@ -373,6 +374,6 @@ footer div img {
     flex-direction: column;
     align-items: center;
     align-content: center;
-  }
+}
 }
 /*# sourceMappingURL=main.css.map */

@@ -229,12 +229,15 @@ footer {
   }
 }
 @media (min-width: 480px) {
+  main{
+    letter-spacing: normal;
+    font-size: medium;
+  }
   .section1 {
     display: inline;
   }
   h2 {
     margin-top: 100px;
-  }
   }
   legend {
     font-size: large;
@@ -245,7 +248,8 @@ footer {
     display: flex;
   }
   iframe {
-    width: 460px;
+    width: auto;
+    padding: 10px
   }
   .excursion_contenedor__carrousel{
     display: flow-root;
@@ -258,4 +262,5 @@ footer {
     flex-direction: column;
     align-items: center;
     align-content: center;
+}
 }
