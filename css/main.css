@@ -343,8 +343,7 @@ footer div img {
   width: 28px;
 }
 
-@media (max-width: 480px) 
-{
+@media (max-width: 480px) {
   .section1 {
     display: inline;
   }
@@ -377,6 +376,25 @@ footer div img {
     align-content: center;
   }
 }
+
+@media (min-width: 481px) {
+  iframe {
+    width: auto;
+    padding: 10px;
+  }
+  .excursion_contenedor__carrousel {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .propuesta {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 @media (max-width: 1024px) {
   .complementoMain__contenedor .complementoMain__contenedor__video {
     width: 100%;
