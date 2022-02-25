@@ -5,8 +5,6 @@ $azul: #7cebffad;
 $celeste: cornflowerblue;
 $gris: #d6eaf8;
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -84,24 +82,24 @@ main {
     margin: 20px 20px;
   }
 }
-.propuesta{
+.propuesta {
   display: flex;
   justify-content: space-between;
-  &__bsas{
-    background-color: #FDBED9
+  &__bsas {
+    background-color: #fdbed9;
   }
-  &__humahuaca{
-    background-color:#f3aacb
+  &__humahuaca {
+    background-color: #f3aacb;
   }
-  &__iguazu{
-    background-color:#77dd77
+  &__iguazu {
+    background-color: #77dd77;
   }
-  &__bariloche{
-    background-color:#fdfd96
+  &__bariloche {
+    background-color: #fdfd96;
   }
 }
 @each $propuestas in __bsas, __humahuaca, __iguazu, __bariloche {
-  .propuesta#{$propuestas}{
+  .propuesta#{$propuestas} {
     display: flex;
     padding: 10px;
     margin: 8px;
@@ -229,7 +227,7 @@ footer {
   }
 }
 @media (max-width: 480px) {
-  main{
+  main {
     letter-spacing: normal;
     font-size: medium;
   }
@@ -249,18 +247,17 @@ footer {
   }
   iframe {
     width: auto;
-    padding: 10px
+    padding: 10px;
   }
-  .excursion_contenedor__carrousel{
+  .excursion_contenedor__carrousel {
     display: flow-root;
     align-items: center;
     flex-direction: column;
   }
-  .propuesta{
+  .propuesta {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-}
+  }
 }
