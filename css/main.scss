@@ -221,7 +221,7 @@ footer {
     width: 28px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 660px) {
   main {
     letter-spacing: normal;
     font-size: small;
@@ -243,23 +243,6 @@ footer {
     width: 20px;
     display: flex;
   }
-  iframe {
-    width: auto;
-    padding: 10px;
-  }
-  .excursion__contenedor__carrousel {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-  .propuesta {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-@media (max-width: 481px) {
   iframe {
     width: auto;
     padding: 10px;
