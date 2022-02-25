@@ -377,7 +377,7 @@ footer div img {
   }
 }
 
-@media (min-width: 481px) {
+@media (max-width: 481px) {
   iframe {
     width: auto;
     padding: 10px;
