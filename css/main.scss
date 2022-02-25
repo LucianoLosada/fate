@@ -250,6 +250,7 @@ footer {
   .excursion_contenedor__carrousel{
     display: flow-root;
     align-items: center;
+    flex-direction: column;
   }
   .propuesta{
     display: flex;
