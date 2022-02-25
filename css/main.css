@@ -390,12 +390,9 @@ footer div img {
     padding: 10px;
   }
   .excursion__contenedor__carrousel {
-    display: flex;
+    display: block;
     align-items: center;
     flex-direction: column;
-  }
-  .excursion__contenedor__carrousel img {
-    width: auto;
   }
   .propuesta {
     display: flex;

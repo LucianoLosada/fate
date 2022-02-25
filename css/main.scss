@@ -271,12 +271,9 @@ footer {
     padding: 10px;
   }
   .excursion__contenedor__carrousel {
-    display: flex;
+    display: block;
     align-items: center;
     flex-direction: column;
-    img {
-      width: max-content;
-    }
   }
   .propuesta {
     display: flex;
