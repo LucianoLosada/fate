@@ -273,6 +273,7 @@ footer {
   }
   .propuesta {
     display: flex;
+    -webkit-box-pack: justify;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
