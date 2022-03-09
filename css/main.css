@@ -364,7 +364,7 @@ footer div img {
   }
 }
 
-@media (max-width: 660px) {
+@media (max-width: 661px) {
   .section1 {
     display: inline;
   }
@@ -406,7 +406,7 @@ footer div img {
   }
 }
 
-@media (max-width: 980px) {
+@media (max-width: 982px) {
   .propuesta {
     display: -webkit-box;
     display: -ms-flexbox;
