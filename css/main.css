@@ -355,10 +355,10 @@ footer div img {
   }
   .propuesta {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
     flex-direction: row;
+    align-items: stretch;
+    flex-wrap: wrap;
   }
 }
 
@@ -399,7 +399,7 @@ footer div img {
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-    flex-direction: row;;
+    flex-direction: row;
   }
   .carousel {
     position: relative;
