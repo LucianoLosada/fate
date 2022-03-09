@@ -356,12 +356,20 @@ footer div img {
   }
   .propuesta {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
   }
   .carousel {
     position: relative;
     width: 100%;
+  }
+}
+@media (max-width: 980px) {
+  .propuesta{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   }
 }
 

@@ -239,6 +239,7 @@ footer {
   }
   .propuesta {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
   }
@@ -247,7 +248,13 @@ footer {
     width: 100%;
   }
 }
-
+@media (max-width: 980px) {
+  .propuesta{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  }
+}
 @media (max-width: 1024px) {
   .complementoMain__contenedor .complementoMain__contenedor__video {
     width: 100%;
