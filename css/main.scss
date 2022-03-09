@@ -250,6 +250,12 @@ footer {
     display: -ms-flexbox;
     display: flex;
   }
+  .propuesta{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 980px) {
   .propuesta{
