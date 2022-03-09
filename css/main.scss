@@ -217,13 +217,6 @@ footer {
   }
 }
 @media (max-width: 660px) {
-  main {
-    letter-spacing: normal;
-    font-size: small;
-  }
-  p {
-    font-size: 19px;
-  }
   .section1 {
     display: inline;
   }
@@ -236,6 +229,8 @@ footer {
   footer div a Img {
     height: 20px;
     width: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
   }
   iframe {
@@ -244,10 +239,12 @@ footer {
   }
   .propuesta {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carousel {
+    position: relative;
+    width: 100%;
   }
 }
 
@@ -259,12 +256,19 @@ footer {
     width: 100%;
     padding: 10px;
   }
+  .excursion__contenedor__carrousel {
+    display: block;
+    flex-direction: column;
+  }
   .propuesta {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carousel {
+    position: relative;
+    width: 100%;
   }
 }
 @media (max-width: 1290px) {
@@ -275,12 +279,16 @@ footer {
     width: 100%;
     padding: 10px;
   }
+  .excursion__contenedor__carrousel {
+    display: flex;
+    flex-direction: column;
+  }
   .propuesta {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-    flex-direction: row;;
+    flex-direction: row;
   }
   .carousel {
     position: relative;
@@ -293,10 +301,19 @@ footer {
     width: 100%;
     padding: 10px;
   }
+  .excursion__contenedor__carrousel {
+    display: block;
+    align-items: center;
+    flex-direction: column;
+  }
   .propuesta {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+  }
+  .carousel {
+    position: relative;
+    width: 100%;
   }
 }
