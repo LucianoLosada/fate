@@ -333,14 +333,6 @@ footer div img {
     width: 100%;
     padding: 10px;
   }
-  @media (min-width: 483px) {
-    .propuesta {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: column;
-      align-items: center;
-    }
-  }
   .excursion__contenedor__carrousel {
     display: block;
     -webkit-box-align: center;
@@ -369,24 +361,6 @@ footer div img {
   .carousel {
     position: relative;
     width: 100%;
-  }
-}
-
-@media (min-width: 483px) {
-  .propuesta {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
 }
 
