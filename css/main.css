@@ -361,7 +361,7 @@ footer div img {
     display: flex;
   }
   iframe {
-    width: auto;
+    width: 100%;
   }
   .excursion__contenedor__carrousel {
     display: flow-root;
@@ -383,7 +383,7 @@ footer div img {
     width: 100%;
   }
   iframe {
-    width: auto;
+    width: 100%;
     padding: 10px;
   }
   .excursion__contenedor__carrousel {
@@ -402,11 +402,11 @@ footer div img {
     width: 100%;
   }
   iframe {
-    width: auto;
+    width: 100%;
     padding: 10px;
   }
   .excursion__contenedor__carrousel {
-    display: block;
+    display: flex;
     flex-direction: column;
   }
   .propuesta {
@@ -416,12 +416,15 @@ footer div img {
     flex-direction: row;
     justify-content: center;
   }
+  .carousel {
+    position: relative;
+    width: 100%;
+  }
 }
-
 
 @media (max-width: 482px) {
   iframe {
-    width: auto;
+    width: 100%;
     padding: 10px;
   }
   .excursion__contenedor__carrousel {
