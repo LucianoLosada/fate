@@ -328,7 +328,7 @@ footer div img {
 }
 
 /*MQ*/
-@media (max-width: 482px) {
+@media (max-width: 480px) {
   iframe {
     width: 100%;
     padding: 10px;
@@ -364,7 +364,7 @@ footer div img {
   }
 }
 
-@media (max-width: 661px) {
+@media (max-width: 660px) {
   .section1 {
     display: inline;
   }
@@ -406,14 +406,14 @@ footer div img {
   }
 }
 
-@media (max-width: 982px) {
+@media (max-width: 980px) {
   .propuesta {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: center;
+        justify-content: center;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
