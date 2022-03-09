@@ -291,16 +291,6 @@ main p {
   height: 480px;
 }
 
-.excursion__contenedor__carrousel {
-  background-color: #f9d99a;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 /*FOOTER*/
 footer {
   font-size: 1rem;
@@ -363,18 +353,12 @@ footer div img {
   iframe {
     width: 100%;
   }
-  .excursion__contenedor__carrousel {
-    display: flow-root;
-    align-items: center;
-    flex-direction: column;
-  }
-  .excursion__contenedor__carrousel{}
   .propuesta {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
   }
 }
 
@@ -392,9 +376,10 @@ footer div img {
   }
   .propuesta {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
   }
 }
 @media (max-width: 1290px) {
@@ -411,10 +396,10 @@ footer div img {
   }
   .propuesta {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
+    align-items: stretch;
+    flex-direction: row;;
   }
   .carousel {
     position: relative;

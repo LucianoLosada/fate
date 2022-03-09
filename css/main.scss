@@ -244,9 +244,10 @@ footer {
   }
   .propuesta {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
   }
 }
 
@@ -260,9 +261,10 @@ footer {
   }
   .propuesta {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
   }
 }
 @media (max-width: 1290px) {
@@ -275,10 +277,10 @@ footer {
   }
   .propuesta {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
+    align-items: stretch;
+    flex-direction: row;;
   }
   .carousel {
     position: relative;
