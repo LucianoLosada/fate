@@ -264,7 +264,22 @@ footer {
   .complementoMain__contenedor .complementoMain__contenedor__video {
     width: 100%;
   }
+  iframe {
+    width: auto;
+    padding: 10px;
+  }
+  .excursion__contenedor__carrousel {
+    display: block;
+    flex-direction: column;
+  }
+  .propuesta {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
 }
+
 @media (max-width: 482px) {
   iframe {
     width: auto;
