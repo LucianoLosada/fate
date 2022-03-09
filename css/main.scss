@@ -254,6 +254,10 @@ footer {
   justify-content: center;
   flex-wrap: wrap;
   }
+  iframe {
+    width: 100%;
+    padding: 10px;
+  }
 }
 @media (max-width: 1024px) {
   .complementoMain__contenedor .complementoMain__contenedor__video {
@@ -271,7 +275,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
     flex-direction: row;
   }
   .carousel {
@@ -295,7 +298,6 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
     flex-direction: row;
   }
   .carousel {

@@ -371,6 +371,10 @@ footer div img {
   justify-content: center;
   flex-wrap: wrap;
   }
+  iframe {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -389,7 +393,6 @@ footer div img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: stretch;
     flex-direction: row;
   }
   .carousel {
