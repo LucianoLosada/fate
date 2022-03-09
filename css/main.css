@@ -352,13 +352,16 @@ footer div img {
   }
   iframe {
     width: 100%;
+    padding: 10px;
   }
   .propuesta {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: stretch;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carousel {
+    position: relative;
+    width: 100%;
   }
 }
 
@@ -379,6 +382,10 @@ footer div img {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+  }
+  .carousel {
+    position: relative;
+    width: 100%;
   }
 }
 @media (max-width: 1290px) {
@@ -421,6 +428,10 @@ footer div img {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
+  }
+  .carousel {
+    position: relative;
+    width: 100%;
   }
 }
 /*# sourceMappingURL=main.css.map */
