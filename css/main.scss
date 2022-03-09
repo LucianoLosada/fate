@@ -260,9 +260,10 @@ footer {
 @media (max-width: 980px) {
   .propuesta{
     display: flex;
-    -webkit-box-pack: justify;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: stretch;
   }
   iframe {
     width: 100%;
@@ -282,9 +283,10 @@ footer {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: row;
+    align-items: stretch;
   }
   .carousel {
     position: relative;
     width: 100%;
   }
-} 
+}
